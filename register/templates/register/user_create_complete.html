@@ -1,0 +1,8 @@
+{% extends "register/base.html" %}
+{% block content %}
+<p>
+    registration is complete <br>
+    Please login with your registered email address and password <br>
+    <a class="btn btn-primary btn-lg" href="{% url 'register:login' %}">Log in</a>
+</p>
+{% endblock %}

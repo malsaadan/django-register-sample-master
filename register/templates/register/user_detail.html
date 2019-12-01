@@ -1,0 +1,19 @@
+{% extends "register/base.html" %}
+{% block content %}
+<table class="table">
+    <tbody>
+        <tr>
+            <th>username</th>
+            <td>{{ user.email }}</td>
+        </tr>
+        <tr>
+            <th>last name</th>
+            <td>{{ user.last_name }}</td>
+        </tr>
+        <tr>
+            <th>first name</th>
+            <td>{{ user.first_name }}</td>
+        </tr>
+    </tbody>
+</table>
+{% endblock %}
